@@ -1,0 +1,29 @@
+{
+    "Cook book": [
+        {
+           "Soup": [
+              {
+                  "Ingridients": 3,
+                  "eggs": 2 "units",
+                  "milk": 50 "ml",
+                  "Tomato": 100 "gramm"
+              },
+            ]
+           "Apple pie": [
+              }
+                  "Ingridients": 4,
+                  "eggs": 1 "units",
+                  "flour": 300 "gramm",
+                  "oil": 60 "gramm",
+                  "apples": 80 "gramm"
+              },
+            ]
+           "Omlette": [
+              }
+                  "Ingridients": 2
+                  "Water": 100 "ml",
+                  "Tomato": 300 "gramm"
+              }
+            ]
+     ]
+}
