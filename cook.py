@@ -6,10 +6,28 @@ with open('cook_book.txt') as cook_book_file:
 			dish = {}
 			Dish_name = line.strip()
 		        ingridients_line_count = int(line.readline())
+		        ingridient_count = int(book.readline())
 		        dish['name'] = dish_name
-		Dish_ingredients = ""
-		for i in range(ingridients_line_count):
-			Dish_ingredients += " " + cook_book_file.readline().strip()
+			dish['type'] = '2'
+                     #  Dish_ingredients = ""
+                     #  for i in range(quantity_ingridients):
+                     #          Dish_ingredients += " " + book.readline().strip()
+
+                ingridients = []
+                for ingridient in range(ingredient_count):
+                        Dictionary_of_recipe = {}
+                        ingridient = list(book.readline().strip().split('|'))
+                        product = ingridient[0]
+                        quantity = ingridient[1]
+                        unit = ingridient[2]
+                        dict_ingridients['unit'] = unit
+                        dict_ingridients['quantity'] = quantity
+                        dict_ingridients['product'] = product
+                        ingridients.append(Dictionary_of_recipe)
+        dish['ingridients'] = ingridients
+        cook_book[dish_name] = dish
+        print(cook_book)
+		
 
 def get_shop_list_by_dishes(dishes, people_count):
     shop_list = {}
