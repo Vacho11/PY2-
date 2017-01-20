@@ -21,12 +21,13 @@ with open('cook_book.txt') as cook_book_file:
                         quantity = ingridient[1]
                         unit = ingridient[2]
                         dict_ingridients['unit'] = unit
-                        dict_ingridients['quantity'] = quantity
+                        dict_ingridients['quantity'] = int(quantity)
                         dict_ingridients['product'] = product
                         ingridients.append(Dictionary_of_recipe)
         dish['ingridients'] = ingridients
         cook_book[dish_name] = dish
-        print(cook_book)
+return(cook_book)
+print(cook_book)
 		
 
 def get_shop_list_by_dishes(dishes, people_count):
