@@ -8,7 +8,6 @@ with open('cook_book.json', 'r') as cook_file:
         for dish in dishes:
         for ingridient in dish['ingridients']:
                 new_shop_item = dict(ingridient)
-            # пересчитали ингрединты по количеству людей
                 new_shop_item['quantity'] = new_shop_item['quantity'] * people_count
                 if new_shop_item['product'] not in shop_list:
                 shop_list[new_shop_item['product']] = new_shop_item
