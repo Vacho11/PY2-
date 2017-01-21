@@ -1,32 +1,59 @@
 {
-     "Soup":
-         {
+     "Soup":  {
              "Ingridients": [
                { 
-                  "eggs": 2 "units",
-                  "milk": 50 "ml",
-                  "Tomato": 100 "gramm"
+                  "ingridient": "eggs",
+                  "quantity": 2, 
+                  "unit_of_measurment": "units"
+               },
+               {
+                  "ingridient": "milk",
+                  "quantity": 50, 
+                  "unit_of_measurment": "ml"
+               },
+               {
+                  "ingridient": "tomato",
+                  "quantity": 100
+                  "unit_of_measurment": "gramm"
                },
             ]
-          },   
-     "Apple pie":
-          {
-              "Ingridients": [
-                {
-                  "eggs": 1 "units",
-                  "flour": 300 "gramm",
-                  "oil": 60 "gramm",
-                  "apples": 80 "gramm"
-                },
+     },
+     "Apple pie":  {
+             "Ingridients": [
+               { 
+                  "ingridient": "eggs",
+                  "quantity": 1, 
+                  "unit_of_measurment": "units"
+               },
+               {
+                  "ingridient": "flour",
+                  "quantity": 300, 
+                  "unit_of_measurment": "gramm"
+               },
+               {
+                  "ingridient": "oil",
+                  "quantity": 60,
+                  "unit_of_measurment": "gramm"
+               },
+               {
+                  "ingridient": "apples",
+                  "quantity": 80,
+                  "unit_of_measurment": "gramm"
+               },
             ]
-          },
-     "Omlette": 
-          {
-              "Ingridients": [
-                {
-                  "Water": 100 "ml",
-                  "Tomato": 300 "gramm"
-                }
-            ]
-          },   
+     },
+     "Omlette":  {
+             "Ingridients": [
+               { 
+                  "ingridient": "water",
+                  "quantity": 100, 
+                  "unit_of_measurment": "ml"
+               },
+               {
+                  "ingridient": "tomato",
+                  "quantity": 300,
+                  "unit_of_measurment": "gramm"
+               },
+            ]     
+     },   
 }
