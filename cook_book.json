@@ -13,7 +13,7 @@
                },
                {
                   "ingridient": "tomato",
-                  "quantity": 100
+                  "quantity": 100,
                   "unit_of_measurment": "gramm"
                },
             ]
