@@ -4,7 +4,7 @@ import subprocess
 from multiprocessing import pool  
 
 Source_directory = 'Source'
-result = 'Result'
+Result = 'Result'
 
 Images = glob.glob(os.path.join(Source_directory, "*.jpg"))
 
